@@ -25,10 +25,9 @@
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
     if count < 10:
-        print('Number of donuts: %i'%(count))
+        return ('Number of donuts: %i'%(count))
     else:
-        print('Number of donuts: many')
-    return
+        return('Number of donuts: many')
 
 
 # B. both_ends
